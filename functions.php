@@ -84,11 +84,3 @@ function prefix_translate_text( $translated_text ) {
     return $translated_text;
 }
 add_filter( 'gettext', 'prefix_translate_text' );
-
-
-//------------------------------------------------------------------------------
-
-
-
-
-
